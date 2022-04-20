@@ -1,3 +1,7 @@
 export default function Shirt() {
-    return <h2>Camiasas Page!</h2>
+
+    return (
+        <div>
+            < h2 > Camiasas Page!</h2 >
+        </div>)
 }

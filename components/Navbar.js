@@ -1,7 +1,8 @@
 import Link from 'next/link'
+import styles from '../styles/Navbar.module.css'
 export default function Navbar() {
     return (
-        <ul>
+        <ul className={styles.navbar}>
             <li>
                 <Link href={"/"}>
                     <a>Ínicio</a>
@@ -10,6 +11,11 @@ export default function Navbar() {
             <li>
                 <Link href={"/products"}>
                     <a>Produtos</a>
+                </Link>
+            </li>
+            <li>
+                <Link href={"/sales_off"}>
+                    <a>Promoções</a>
                 </Link>
             </li>
             <li>

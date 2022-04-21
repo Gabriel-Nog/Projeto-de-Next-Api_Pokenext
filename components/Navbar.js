@@ -19,6 +19,11 @@ export default function Navbar() {
                 </Link>
             </li>
             <li>
+                <Link href={"/todos"}>
+                    <a>Tarefas</a>
+                </Link>
+            </li>
+            <li>
                 <Link href={"/about"}>
                     <a>Página De Sobre</a>
                 </Link>

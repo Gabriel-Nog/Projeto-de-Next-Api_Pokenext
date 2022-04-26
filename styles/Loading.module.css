@@ -1,0 +1,13 @@
+.loading {
+    background-color: #181b1d;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.pokeball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
